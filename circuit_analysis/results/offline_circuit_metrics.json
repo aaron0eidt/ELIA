@@ -1,0 +1,484 @@
+{
+  "prompts_ran": [
+    "The capital of France is",
+    "def factorial(n):",
+    "The literary device in the phrase 'The wind whispered through the trees' is"
+  ],
+  "aggregate_summary": {
+    "targeted": {
+      "count": 384,
+      "avg_probability_change": 0.0037064552307128906,
+      "avg_abs_probability_change": 0.017832597096761067,
+      "std_probability_change": 0.024085208735490346,
+      "avg_logit_change": 0.015276943643887838,
+      "avg_abs_logit_change": 0.10990743339061737,
+      "std_logit_change": 0.14790562906131785,
+      "avg_kl_divergence": 0.0,
+      "avg_entropy_change": 0.0,
+      "avg_hidden_state_delta_norm": 7.304225921630859,
+      "avg_hidden_state_relative_change": 0.07329477507168775,
+      "flip_rate": 0.1640625,
+      "count_flipped": 63
+    },
+    "random_baseline": {
+      "count": 15,
+      "avg_probability_change": 0.00411376953125,
+      "avg_abs_probability_change": 0.0045206705729166664,
+      "std_probability_change": 0.008715364389044073,
+      "avg_logit_change": 0.025040690104166666,
+      "avg_abs_logit_change": 0.0387451171875,
+      "std_logit_change": 0.056757731194411305,
+      "avg_kl_divergence": 0.0,
+      "avg_entropy_change": 0.0,
+      "avg_hidden_state_delta_norm": 2.098746744791667,
+      "avg_hidden_state_relative_change": 0.020347025628623817,
+      "flip_rate": 0.13333333333333333,
+      "count_flipped": 2
+    },
+    "path": {
+      "count": 9,
+      "avg_probability_change": 0.05379909939236111,
+      "avg_abs_probability_change": 0.05379909939236111,
+      "std_probability_change": 0.03592616044133087,
+      "avg_logit_change": 0.1922607421875,
+      "avg_abs_logit_change": 0.1967095269097222,
+      "std_logit_change": 0.21084131002100345,
+      "avg_kl_divergence": 0.0,
+      "avg_entropy_change": 0.0,
+      "avg_hidden_state_delta_norm": 9.847222222222221,
+      "avg_hidden_state_relative_change": 0.09728426029029577,
+      "flip_rate": 0.2222222222222222,
+      "count_flipped": 2
+    },
+    "random_path_baseline": {
+      "count": 10,
+      "avg_probability_change": -0.00140380859375,
+      "avg_abs_probability_change": 0.01318359375,
+      "std_probability_change": 0.017461901132504055,
+      "avg_logit_change": 0.012884521484375,
+      "avg_abs_logit_change": 0.075469970703125,
+      "std_logit_change": 0.08951169079108637,
+      "avg_kl_divergence": 0.0,
+      "avg_entropy_change": 0.0,
+      "avg_hidden_state_delta_norm": 6.292578125,
+      "avg_hidden_state_relative_change": 0.06215471324319018,
+      "flip_rate": 0.2,
+      "count_flipped": 2
+    },
+    "target_minus_random_abs_probability_change": 0.0133119265238444,
+    "target_flip_rate_minus_random": 0.03072916666666667,
+    "path_minus_random_abs_probability_change": 0.04061550564236111,
+    "path_flip_rate_minus_random": 0.0222222222222222
+  },
+  "per_prompt": {
+    "prompt_1": {
+      "prompt": "The capital of France is",
+      "summary_statistics": {
+        "targeted": {
+          "count": 128,
+          "avg_probability_change": 0.004764556884765625,
+          "avg_abs_probability_change": 0.025264739990234375,
+          "std_probability_change": 0.03195406092166983,
+          "avg_logit_change": 0.005943402647972107,
+          "avg_abs_logit_change": 0.08632268011569977,
+          "std_logit_change": 0.1132019008155424,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 6.6026153564453125,
+          "avg_hidden_state_relative_change": 0.070100760253486,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "random_baseline": {
+          "count": 5,
+          "avg_probability_change": 0.006494140625,
+          "avg_abs_probability_change": 0.006884765625,
+          "std_probability_change": 0.012063215323471172,
+          "avg_logit_change": 0.0234619140625,
+          "avg_abs_logit_change": 0.0234619140625,
+          "std_logit_change": 0.042261115942436644,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 1.45966796875,
+          "avg_hidden_state_relative_change": 0.015497470139185163,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "path": {
+          "count": 3,
+          "avg_probability_change": 0.07967122395833333,
+          "avg_abs_probability_change": 0.07967122395833333,
+          "std_probability_change": 0.013695590325716009,
+          "avg_logit_change": 0.07661946614583333,
+          "avg_abs_logit_change": 0.07661946614583333,
+          "std_logit_change": 0.03182210693328131,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 7.229166666666667,
+          "avg_hidden_state_relative_change": 0.0767529307667144,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "random_path_baseline": {
+          "count": 4,
+          "avg_probability_change": -0.00994873046875,
+          "avg_abs_probability_change": 0.01690673828125,
+          "std_probability_change": 0.02002948420533245,
+          "avg_logit_change": 0.0011444091796875,
+          "avg_abs_logit_change": 0.0316314697265625,
+          "std_logit_change": 0.0377090926751411,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 4.0029296875,
+          "avg_hidden_state_relative_change": 0.04249958526829463,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "target_minus_random_abs_probability_change": 0.018379974365234374,
+        "target_flip_rate_minus_random": 0.0,
+        "path_minus_random_abs_probability_change": 0.06276448567708333,
+        "path_flip_rate_minus_random": 0.0
+      },
+      "counts": {
+        "targeted": 128,
+        "random": 5,
+        "path": 3,
+        "random_path": 4
+      },
+      "top_targeted": [
+        {
+          "label": "feature_208",
+          "probability_change": -0.1171875,
+          "logit_change": -0.22528076171875,
+          "flip": false
+        },
+        {
+          "label": "feature_378",
+          "probability_change": 0.0859375,
+          "logit_change": 0.137939453125,
+          "flip": false
+        },
+        {
+          "label": "feature_467",
+          "probability_change": 0.077880859375,
+          "logit_change": 0.0877685546875,
+          "flip": false
+        },
+        {
+          "label": "feature_134",
+          "probability_change": 0.072021484375,
+          "logit_change": 0.224365234375,
+          "flip": false
+        },
+        {
+          "label": "feature_142",
+          "probability_change": 0.07177734375,
+          "logit_change": 0.24560546875,
+          "flip": false
+        }
+      ],
+      "top_paths": [
+        {
+          "label": "Token '\u0120capital' \u2192 Feature L0F322 (Word/alphabetic tokens) \u2192 Feature L1F44 (Word/alphabetic tokens) \u2192 Feature L2F320 (Word/alphabetic tokens) \u2192 Feature L3F338 (Word/alphabetic tokens) \u2192 Output",
+          "probability_change": 0.08935546875,
+          "logit_change": 0.09912109375,
+          "flip": false
+        },
+        {
+          "label": "Token 'The' \u2192 Feature L0F322 (Word/alphabetic tokens) \u2192 Feature L1F44 (Word/alphabetic tokens) \u2192 Feature L2F320 (Word/alphabetic tokens) \u2192 Feature L3F338 (Word/alphabetic tokens) \u2192 Output",
+          "probability_change": 0.08935546875,
+          "logit_change": 0.09912109375,
+          "flip": false
+        },
+        {
+          "label": "Token '\u0120capital' \u2192 Feature L0F322 (Word/alphabetic tokens) \u2192 Feature L1F44 (Word/alphabetic tokens) \u2192 Feature L2F320 (Word/alphabetic tokens) \u2192 Feature L3F367 (Word/alphabetic tokens) \u2192 Output",
+          "probability_change": 0.060302734375,
+          "logit_change": 0.0316162109375,
+          "flip": false
+        }
+      ]
+    },
+    "prompt_2": {
+      "prompt": "def factorial(n):",
+      "summary_statistics": {
+        "targeted": {
+          "count": 128,
+          "avg_probability_change": 0.003498077392578125,
+          "avg_abs_probability_change": 0.016864776611328125,
+          "std_probability_change": 0.02251701216357027,
+          "avg_logit_change": -0.004237174987792969,
+          "avg_abs_logit_change": 0.10776042938232422,
+          "std_logit_change": 0.14078546527424055,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 8.8001708984375,
+          "avg_hidden_state_relative_change": 0.08148306387366683,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "random_baseline": {
+          "count": 5,
+          "avg_probability_change": 0.00400390625,
+          "avg_abs_probability_change": 0.00478515625,
+          "std_probability_change": 0.008191782057277022,
+          "avg_logit_change": 0.030224609375,
+          "avg_abs_logit_change": 0.071337890625,
+          "std_logit_change": 0.08533968984750907,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 4.21953125,
+          "avg_hidden_state_relative_change": 0.039069733795934536,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "path": {
+          "count": 3,
+          "avg_probability_change": 0.07674153645833333,
+          "avg_abs_probability_change": 0.07674153645833333,
+          "std_probability_change": 0.009609931026867956,
+          "avg_logit_change": 0.4598795572916667,
+          "avg_abs_logit_change": 0.4598795572916667,
+          "std_logit_change": 0.13856714917783255,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 15.4140625,
+          "avg_hidden_state_relative_change": 0.1427228009246044,
+          "flip_rate": 0.3333333333333333,
+          "count_flipped": 1
+        },
+        "random_path_baseline": {
+          "count": 3,
+          "avg_probability_change": 0.00439453125,
+          "avg_abs_probability_change": 0.013671875,
+          "std_probability_change": 0.016523589485978502,
+          "avg_logit_change": -0.005452473958333333,
+          "avg_abs_logit_change": 0.11726888020833333,
+          "std_logit_change": 0.12771601543377464,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 10.997395833333334,
+          "avg_hidden_state_relative_change": 0.10182773919658801,
+          "flip_rate": 0.0,
+          "count_flipped": 0
+        },
+        "target_minus_random_abs_probability_change": 0.012079620361328125,
+        "target_flip_rate_minus_random": 0.0,
+        "path_minus_random_abs_probability_change": 0.06306966145833333,
+        "path_flip_rate_minus_random": 0.3333333333333333
+      },
+      "counts": {
+        "targeted": 128,
+        "random": 5,
+        "path": 3,
+        "random_path": 3
+      },
+      "top_targeted": [
+        {
+          "label": "feature_72",
+          "probability_change": -0.102294921875,
+          "logit_change": -0.555908203125,
+          "flip": false
+        },
+        {
+          "label": "feature_240",
+          "probability_change": 0.056884765625,
+          "logit_change": 0.272216796875,
+          "flip": false
+        },
+        {
+          "label": "feature_79",
+          "probability_change": -0.0556640625,
+          "logit_change": -0.1513671875,
+          "flip": false
+        },
+        {
+          "label": "feature_235",
+          "probability_change": 0.05224609375,
+          "logit_change": 0.252685546875,
+          "flip": false
+        },
+        {
+          "label": "feature_439",
+          "probability_change": 0.050048828125,
+          "logit_change": 0.223388671875,
+          "flip": false
+        }
+      ],
+      "top_paths": [
+        {
+          "label": "Token '\u0120factorial' \u2192 Feature L0F246 (Identifying punctuation and articles) \u2192 Feature L1F439 (Word/alphabetic tokens) \u2192 Feature L2F203 (Mixed/polysemantic feature) \u2192 Feature L3F24 (Mixed/polysemantic feature) \u2192 Output",
+          "probability_change": 0.09033203125,
+          "logit_change": 0.263916015625,
+          "flip": true
+        },
+        {
+          "label": "Token '\u0120factorial' \u2192 Feature L0F246 (Identifying punctuation and articles) \u2192 Feature L1F439 (Word/alphabetic tokens) \u2192 Feature L2F203 (Mixed/polysemantic feature) \u2192 Feature L3F187 (Mixed/polysemantic feature) \u2192 Output",
+          "probability_change": 0.0699462890625,
+          "logit_change": 0.557861328125,
+          "flip": false
+        },
+        {
+          "label": "Token 'def' \u2192 Feature L0F246 (Identifying punctuation and articles) \u2192 Feature L1F439 (Word/alphabetic tokens) \u2192 Feature L2F203 (Mixed/polysemantic feature) \u2192 Feature L3F187 (Mixed/polysemantic feature) \u2192 Output",
+          "probability_change": 0.0699462890625,
+          "logit_change": 0.557861328125,
+          "flip": false
+        }
+      ]
+    },
+    "prompt_3": {
+      "prompt": "The literary device in the phrase 'The wind whispered through the trees' is",
+      "summary_statistics": {
+        "targeted": {
+          "count": 128,
+          "avg_probability_change": 0.002856731414794922,
+          "avg_abs_probability_change": 0.011368274688720703,
+          "std_probability_change": 0.014502722583680286,
+          "avg_logit_change": 0.044124603271484375,
+          "avg_abs_logit_change": 0.13563919067382812,
+          "std_logit_change": 0.17802501078177962,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 6.509891510009766,
+          "avg_hidden_state_relative_change": 0.06830050108791044,
+          "flip_rate": 0.4921875,
+          "count_flipped": 63
+        },
+        "random_baseline": {
+          "count": 5,
+          "avg_probability_change": 0.00184326171875,
+          "avg_abs_probability_change": 0.00189208984375,
+          "std_probability_change": 0.00210067367193147,
+          "avg_logit_change": 0.021435546875,
+          "avg_abs_logit_change": 0.021435546875,
+          "std_logit_change": 0.02351792840670642,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 0.617041015625,
+          "avg_hidden_state_relative_change": 0.006473872950751749,
+          "flip_rate": 0.4,
+          "count_flipped": 2
+        },
+        "path": {
+          "count": 3,
+          "avg_probability_change": 0.004984537760416667,
+          "avg_abs_probability_change": 0.004984537760416667,
+          "std_probability_change": 0.003682847818679935,
+          "avg_logit_change": 0.040283203125,
+          "avg_abs_logit_change": 0.053629557291666664,
+          "std_logit_change": 0.07112499849825625,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 6.8984375,
+          "avg_hidden_state_relative_change": 0.0723770491795685,
+          "flip_rate": 0.3333333333333333,
+          "count_flipped": 1
+        },
+        "random_path_baseline": {
+          "count": 3,
+          "avg_probability_change": 0.004191080729166667,
+          "avg_abs_probability_change": 0.007731119791666667,
+          "std_probability_change": 0.0067955519556561735,
+          "avg_logit_change": 0.046875,
+          "avg_abs_logit_change": 0.09212239583333333,
+          "std_logit_change": 0.08261409961169389,
+          "avg_kl_divergence": 0.0,
+          "avg_entropy_change": 0.0,
+          "avg_hidden_state_delta_norm": 4.640625,
+          "avg_hidden_state_relative_change": 0.04868852458965311,
+          "flip_rate": 0.6666666666666666,
+          "count_flipped": 2
+        },
+        "target_minus_random_abs_probability_change": 0.009476184844970703,
+        "target_flip_rate_minus_random": 0.09218749999999998,
+        "path_minus_random_abs_probability_change": -0.00274658203125,
+        "path_flip_rate_minus_random": -0.3333333333333333
+      },
+      "counts": {
+        "targeted": 128,
+        "random": 5,
+        "path": 3,
+        "random_path": 3
+      },
+      "top_targeted": [
+        {
+          "label": "feature_26",
+          "probability_change": 0.0413818359375,
+          "logit_change": 0.641357421875,
+          "flip": true
+        },
+        {
+          "label": "feature_103",
+          "probability_change": -0.03997802734375,
+          "logit_change": -0.37274169921875,
+          "flip": false
+        },
+        {
+          "label": "feature_32",
+          "probability_change": 0.03857421875,
+          "logit_change": 0.449462890625,
+          "flip": true
+        },
+        {
+          "label": "feature_52",
+          "probability_change": 0.03411865234375,
+          "logit_change": 0.370849609375,
+          "flip": true
+        },
+        {
+          "label": "feature_294",
+          "probability_change": 0.03387451171875,
+          "logit_change": 0.537353515625,
+          "flip": true
+        }
+      ],
+      "top_paths": [
+        {
+          "label": "Token '\u0120literary' \u2192 Feature L0F434 (Mixed/polysemantic feature) \u2192 Feature L1F56 (Mixed/polysemantic feature) \u2192 Feature L2F62 (Mixed/polysemantic feature) \u2192 Feature L3F386 (Mixed/polysemantic feature) \u2192 Output",
+          "probability_change": 0.01019287109375,
+          "logit_change": 0.140869140625,
+          "flip": true
+        },
+        {
+          "label": "Token '\u0120literary' \u2192 Feature L0F434 (Mixed/polysemantic feature) \u2192 Feature L1F56 (Mixed/polysemantic feature) \u2192 Feature L2F62 (Mixed/polysemantic feature) \u2192 Feature L3F157 (Mixed/polysemantic feature) \u2192 Output",
+          "probability_change": 0.00238037109375,
+          "logit_change": -0.010009765625,
+          "flip": false
+        },
+        {
+          "label": "Token '\u0120device' \u2192 Feature L0F434 (Mixed/polysemantic feature) \u2192 Feature L1F56 (Mixed/polysemantic feature) \u2192 Feature L2F62 (Mixed/polysemantic feature) \u2192 Feature L3F157 (Mixed/polysemantic feature) \u2192 Output",
+          "probability_change": 0.00238037109375,
+          "logit_change": -0.010009765625,
+          "flip": false
+        }
+      ]
+    }
+  },
+  "config": {
+    "model_path": "./models/OLMo-2-1124-7B",
+    "max_seq_length": 512,
+    "n_features_per_layer": 512,
+    "sparsity_lambda": 0.001,
+    "reconstruction_loss_weight": 1.0,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "training_steps": 1000,
+    "device": "mps",
+    "pruning_threshold": 0.8,
+    "intervention_strength": 5.0,
+    "qwen_api_config": null,
+    "max_ablation_experiments": null,
+    "ablation_top_k_tokens": 5,
+    "ablation_features_per_layer": 4,
+    "summary_max_layers": null,
+    "summary_features_per_layer": 2,
+    "random_baseline_trials": 5,
+    "random_baseline_features": 1,
+    "random_baseline_seed": 1234,
+    "path_ablation_top_k": 3,
+    "random_path_baseline_trials": 5,
+    "graph_max_features_per_layer": 40,
+    "graph_feature_activation_threshold": 0.01,
+    "graph_edge_weight_threshold": 0.003,
+    "graph_max_edges_per_node": 20
+  }
+}

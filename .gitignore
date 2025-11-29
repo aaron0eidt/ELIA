@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Models
+models/
+circuit_analysis/models/
+
+# Datasets
+influence_tracer/dolma_dataset_sample_1.6v/
+influence_tracer/influence_tracer_data/
+influence_tracer/dolma
+
+# Generated Data & Cache
+#influence_tracer/influence_tracer_data/
+#cache/
+#function_vectors/data/vectors/
+#circuit_analysis/results/
+circuit_analysis/debug_cpr.log
+circuit_analysis/debug_cpr_2.log
+
+# User Data
+user_study/data/
+user_study/voice_memos/files/
+user_study/voice_memos/merged_files/
+user_study/voice_memos/transcripts/
+process_faithfulness.py
+Faithfulness.csv
+FaithfulnessNew.csv
+
+# Writing & Documentation artifacts
+writing/
+ELIA_Demo_Script.md
+texput.log
+
+# Temp
+temp_tokenizer/
+
