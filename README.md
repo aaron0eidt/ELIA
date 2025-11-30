@@ -4,6 +4,8 @@
 
 ELIA is a comprehensive, interactive suite for analyzing and interpreting the internal mechanisms of Large Language Models (LLMs). It brings together three powerful interpretability techniques—Attribution Analysis, Function Vectors, and Circuit Tracing—into a single, user-friendly Streamlit interface.
 
+**[Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/aaron0eidt/ELIA)**
+
 Designed for researchers and developers, ELIA provides deep insights into how models like **OLMo-2-1124-7B** process information, make decisions, and evolve representations across layers.
 
 ## Key Features
