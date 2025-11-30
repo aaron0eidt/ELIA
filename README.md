@@ -124,6 +124,3 @@ Dive into the specific sub-networks responsible for model behaviors.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-[MIT License](LICENSE)
